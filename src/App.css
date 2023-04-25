@@ -33,7 +33,7 @@
 .keypad :nth-child(12),
 .keypad :nth-child(16),
 .keypad :nth-child(19) {
-  background-color: #ffb05c;
+  background-color: #f5913e;
 }
 
 .singleButton {
