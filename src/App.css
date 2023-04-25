@@ -11,11 +11,13 @@
 .resultBar {
   height: 6rem;
   width: 100%;
-  font-size: 3rem;
-  text-align: right;
-  padding: 0 1rem;
+  font-size: 4rem;
+  padding: 0 3rem;
   background-color: gray;
   color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .keypad {
