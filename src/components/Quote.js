@@ -23,7 +23,7 @@ const Quote = () => {
       }
     };
     fetchQuote();
-  }, []);
+  }, [setQuote, setLoading, setError]);
 
   if (loading) {
     return <div>Loading...</div>;
