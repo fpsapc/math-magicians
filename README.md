@@ -27,7 +27,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ(#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -80,6 +80,14 @@ API
 
 - **[Allow to use calculator]**
 - **[Allow to read the quotes]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Movies-Showcase-link](https://react-math-magician-calc.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
