@@ -1,23 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`render correctly and mathes the snapshot 1`] = `
-Array [
-  " ",
+<DocumentFragment>
+   
   <nav
-    className="navBar"
+    class="navBar"
   >
     <h1
-      className="navHeading"
+      class="navHeading"
     >
       Math Magicians
     </h1>
     <ul
-      className="navLinks"
+      class="navLinks"
     >
       <li>
         <a
           href="#/"
-          onClick={[Function]}
         >
           <span>
             Home
@@ -27,7 +26,6 @@ Array [
       <li>
         <a
           href="#/calculator"
-          onClick={[Function]}
         >
           <span>
             Calculator
@@ -37,7 +35,6 @@ Array [
       <li>
         <a
           href="#/quote"
-          onClick={[Function]}
         >
           <span>
             Quote
@@ -45,6 +42,6 @@ Array [
         </a>
       </li>
     </ul>
-  </nav>,
-]
+  </nav>
+</DocumentFragment>
 `;

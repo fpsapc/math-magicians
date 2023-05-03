@@ -1,15 +1,14 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { HashRouter } from 'react-router-dom';
 import Layout from '../Layout';
 
 it('render correctly and mathes the snapshot', () => {
-  const tree = renderer.create(
+  const { asFragment } = render(
     <HashRouter>
       {' '}
       <Layout />
     </HashRouter>,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
+  );
+  expect(asFragment()).toMatchSnapshot();
 });

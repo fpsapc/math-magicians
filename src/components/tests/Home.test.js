@@ -1,9 +1,8 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import Home from '../Home';
 
 test('render correctly and matches the home snapshot', () => {
-  const tree = renderer.create(<Home />).toJSON();
-  expect(tree).toMatchSnapshot();
+  const { asFragment } = render(<Home />);
+  expect(asFragment()).toMatchSnapshot();
 });
