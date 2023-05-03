@@ -87,8 +87,9 @@ API
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Movies-Showcase-link](https://react-math-magician-calc.netlify.app/)
+- [Math-Magicians-link](https://react-math-magician-calc.netlify.app/)
 
+- [Math-Magicians-render-link](https://math-magicians-tqci.onrender.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
