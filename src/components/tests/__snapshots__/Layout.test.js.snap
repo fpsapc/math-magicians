@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly and mathes the snapshot 1`] = `
+Array [
+  " ",
+  <nav
+    className="navBar"
+  >
+    <h1
+      className="navHeading"
+    >
+      Math Magicians
+    </h1>
+    <ul
+      className="navLinks"
+    >
+      <li>
+        <a
+          href="#/"
+          onClick={[Function]}
+        >
+          <span>
+            Home
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/calculator"
+          onClick={[Function]}
+        >
+          <span>
+            Calculator
+          </span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/quote"
+          onClick={[Function]}
+        >
+          <span>
+            Quote
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>,
+]
+`;
